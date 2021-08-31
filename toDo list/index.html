@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <h1 class="headline">Behruz's ToDo List</h1>
+
+
+    <div class="block_1">
+        <div class="add-block">
+            <input type="text" name="addDo" class="addDo">
+            <div class="add-button"><i class="bi bi-plus-square-fill"></i></div>
+        </div>
+        <ul class="list">
+            <li id="item1" class="list__item active">All</li>
+            <li id="item2" class="list__item">Completed</li>
+            <li id="item3" class="list__item">Uncompleted</li>
+            <div class="select-list__item"><i class="bi bi-caret-down-square"></i></div>
+            <ul class="list-2">
+                <li data-item="item1" class="list-2__item">All</li>
+                <li data-item="item2" class="list-2__item">Completed</li>
+                <li data-item="item3" class="list-2__item">Uncompleted</li>
+            </ul>
+        </ul>
+    </div>
+
+    <div class="main-block">
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
