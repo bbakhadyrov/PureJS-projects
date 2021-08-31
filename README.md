@@ -1,5 +1,5 @@
 # PureJS-projects
-\nMovieApp || [DEMO](https://dontmeway.github.io/movie-app/)
+\n MovieApp || [DEMO](https://dontmeway.github.io/movie-app/)
 #WeatherApp || [DEMO](http://dontmeway.github.io/Weather-App/)
 #ToDoList || [DEMO](https://dontmeway.github.io/ToDo-List/)
 #DrumKit || [DEMO](https://dontmeway.github.io/Drum-Kit/)
